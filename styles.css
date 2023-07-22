@@ -1,0 +1,54 @@
+.gradient-background {
+  background: linear-gradient(300deg, #1a1b1b, #545252, #111010);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+#logo{
+  width: 80px;
+}
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+#navbarSupportedContent .nav-link{
+color: white;
+font-size: 22px;
+}
+
+h1{
+  font-weight: 500;
+}
+p{
+  font-weight: 300;
+}
+*{
+  font-family: 'Roboto', sans-serif;
+}
+#published-In-Section{
+  background-color: rgba(189, 186, 186, 0.2);
+}
+#selected-Projects-Section{
+  padding: 20px;
+}
+
+.More{
+  text-decoration: none;
+}
+.bi-twitter, .bi-instagram, .bi-facebook{
+  height: 35px;
+  width: 35px;
+  color: white;
+}
+
+.resume-unboxed a{
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+.resume-boxed{
+  height: 50px;
+  line-height: 100px;
+  padding: 10px 20px 10px 20px;
+}
+.resume-boxed a{
+  color: white;
+  text-decoration: none;
+}
